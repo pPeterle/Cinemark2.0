@@ -1,4 +1,4 @@
-# cinemark_2
+# Cinemark 2.0
 
 Projeto desenvolvido em flutter em 6 horas utilizando a api do ingresso.com para listagem dos filmes em cartaz e em breve no Cinemark de todo o país.
 
