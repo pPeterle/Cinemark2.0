@@ -1,1 +1,1 @@
-const BASE_URL = "https://api-content.ingresso.com/v0/";
+const baseUrl = "https://api-content.ingresso.com/v0/";

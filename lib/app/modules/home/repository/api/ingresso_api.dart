@@ -31,9 +31,7 @@ class IngressoApi {
 
   Future<List<Carousel>> getCarousel() async {
     try {
-      print('get carousel');
       final cityId = await _localRepository.getCityId();
-      print(cityId);
       if (cityId == null) {
         throw NullCityIdError();
       }

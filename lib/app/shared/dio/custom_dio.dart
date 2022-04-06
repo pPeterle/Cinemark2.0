@@ -6,7 +6,7 @@ import '../urls.dart';
 
 class CustomDio extends DioForNative {
   CustomDio(BaseInterceptor baseInterceptor)
-      : super(BaseOptions(baseUrl: BASE_URL)) {
+      : super(BaseOptions(baseUrl: baseUrl)) {
     interceptors.add(baseInterceptor);
   }
 }
